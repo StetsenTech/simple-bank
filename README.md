@@ -5,10 +5,9 @@ and track transactions
 
 ## Documentation
 
-[Getting Started](GETTING_STARTED.md) - Walks through project setup
-[Glossary](GLOSSARY.md) - Terminology used for project
+- [Getting Started](GETTING_STARTED.md) - Walks through project setup
 
 
 ## Plans
 - [ ] Work on fleshing out Account component
-- [ ] Write tests for each method
+- [ ] Write tests for each method 

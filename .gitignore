@@ -102,3 +102,4 @@ ENV/
 
 # VSCode files
 .vscode/
+.history/

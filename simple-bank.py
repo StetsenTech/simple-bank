@@ -13,17 +13,15 @@ log_levels = {
 
 
 @click.command()
-@click.option('--input', '-i', default="recon.in",
+@click.option('--input', '-i', default="transaction.in",
               type=click.Path(exists=True),
-              help="File to read positions and transactions from")
-@click.option('--output', '-o', default="recon.out",
-              type=click.Path(exists=False), help="File to output results")
+              help="File to read transactions from")
 @click.option('--log', '-l', default=None,
               help="Name of log file")
 @click.option('--log_level', default="info",
               help="Level of logging to be output")
 
-def process_account(input, output, log, log_level):
+def process_account(input, log, log_level):
     """Executes file given parameters"""
     # Set up logging
     level = log_levels.get(log_level, logging.NOTSET)
